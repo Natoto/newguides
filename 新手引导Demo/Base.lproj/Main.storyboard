@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faxian.png" translatesAutoresizingMaskIntoConstraints="NO" id="jZg-wC-0dM">
+                                <rect key="frame" x="0.0" y="690" width="72" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="PT0-yM-Gna"/>
+                                    <constraint firstAttribute="width" constant="72" id="vRR-3Y-OyN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.png" translatesAutoresizingMaskIntoConstraints="NO" id="V2R-Ra-jbt">
+                                <rect key="frame" x="172" y="687" width="71" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="H8W-i1-UEj"/>
+                                    <constraint firstAttribute="width" constant="71" id="olA-wA-6cb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crowdfunding.png" translatesAutoresizingMaskIntoConstraints="NO" id="22c-7c-ZxU">
+                                <rect key="frame" x="269" y="695" width="50" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="NZg-X0-Bdh"/>
+                                    <constraint firstAttribute="height" constant="41" id="uAB-1K-tgI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wode.png" translatesAutoresizingMaskIntoConstraints="NO" id="wbG-7S-9El">
+                                <rect key="frame" x="355" y="687" width="59" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="8re-On-kZ7"/>
+                                    <constraint firstAttribute="height" constant="49" id="Gec-FS-xKU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guangchang.png" translatesAutoresizingMaskIntoConstraints="NO" id="8RC-vC-YOZ">
+                                <rect key="frame" x="108" y="690" width="61" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="Tlc-1U-dvR"/>
+                                    <constraint firstAttribute="height" constant="46" id="qSO-3o-RwK"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wbG-7S-9El" secondAttribute="trailing" constant="-20" id="G4a-jc-HZj"/>
+                            <constraint firstItem="jZg-wC-0dM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Stk-dM-rUj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="22c-7c-ZxU" secondAttribute="bottom" id="X10-sZ-sjd"/>
+                            <constraint firstItem="22c-7c-ZxU" firstAttribute="leading" secondItem="V2R-Ra-jbt" secondAttribute="trailing" constant="26" id="Y65-Rn-sLc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wbG-7S-9El" secondAttribute="bottom" id="b7c-xn-ZnG"/>
+                            <constraint firstItem="V2R-Ra-jbt" firstAttribute="leading" secondItem="8RC-vC-YOZ" secondAttribute="trailing" constant="3" id="e7D-IO-xZ1"/>
+                            <constraint firstItem="V2R-Ra-jbt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="epc-n1-YLL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8RC-vC-YOZ" secondAttribute="bottom" id="mw2-tY-kp9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V2R-Ra-jbt" secondAttribute="bottom" id="wjP-ci-BiN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jZg-wC-0dM" secondAttribute="bottom" id="xWs-VE-BSs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="img_faxian" destination="jZg-wC-0dM" id="VEf-r5-Eqz"/>
+                        <outlet property="img_guangchang" destination="8RC-vC-YOZ" id="wRP-HW-MEs"/>
+                        <outlet property="img_mine" destination="wbG-7S-9El" id="sf2-r1-8XK"/>
+                        <outlet property="img_xiangji" destination="V2R-Ra-jbt" id="myZ-Kr-gEz"/>
+                        <outlet property="img_zhongchou" destination="22c-7c-ZxU" id="f3Y-Zw-P3e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="307" y="170"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera.png" width="88" height="55"/>
+        <image name="crowdfunding.png" width="56" height="52"/>
+        <image name="faxian.png" width="81" height="55"/>
+        <image name="guangchang.png" width="69" height="53"/>
+        <image name="wode.png" width="57" height="53"/>
+    </resources>
+</document>
